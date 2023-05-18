@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-border-width: 2px;
+}
+
+header, main, footer {
+    max-width: 1440px;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-image {
+    max-width: 15rem;
+}
