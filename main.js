@@ -46,6 +46,8 @@ function handleAlbumChange (event) {
     const selectedAlbum = albums.find(albumFolderByUserChoice)
 
     const parentElement = document.querySelector("main")
+    
+    // Remove the current contents of <main>, so we don't keep adding tons of images, we're removing the old images first.
     parentElement.replaceChildren()  // parentElement.innerHTML = ""
 
     for (const path of selectedAlbum.paths) {
