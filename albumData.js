@@ -38,7 +38,7 @@ const albums = [
         ],
     },
     {
-        name: "Singapore Food Tasting",
+        name: "Singapore Kopi Tiam Crawl",
         folder: "singapore-2021",
         path: [],
     },
